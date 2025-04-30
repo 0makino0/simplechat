@@ -22,7 +22,7 @@ bedrock_client = None
 # モデルID
 #MODEL_ID = os.environ.get("MODEL_ID", "us.amazon.nova-lite-v1:0")
 #fastAPIモデルのID
-MODEL_ID = "https://df18-34-125-94-76.ngrok-free.app"
+MODEL_ID = "https://df18-34-125-94-76.ngrok-free.app/generate"
 
 def lambda_handler(event, context):
     try:
